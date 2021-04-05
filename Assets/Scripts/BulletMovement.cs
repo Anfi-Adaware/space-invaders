@@ -14,7 +14,7 @@ public class BulletMovement : MonoBehaviour
     void Update()
     {
         Vector2 pos = transform.position;
-        pos.y += 10f * Time.deltaTime;
+        pos.y += 20f * Time.deltaTime;
         transform.position = pos;
         if(pos.y >= 5.99f)
         {
